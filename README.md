@@ -1,7 +1,7 @@
 # mall_example
 电商项目
 
-commit 2020-09-06  
+commit 2020-09-06 13:18  
 新建项目  
 步骤：
 1. 新建空maven项目，仅保留pom.xml
