@@ -1,0 +1,21 @@
+server:
+  port: 9011
+
+eureka:
+  client:
+    service-url:
+      defaultZone:
+        http://localhost:9020/eureka/
+
+spring:
+  application:
+    name: mall-product-cloud
+  datasource:
+    url: jdbc:mysql://localhost:3306/market?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF8&useSSL=false
+    username: root
+    password: mysql@3028
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
