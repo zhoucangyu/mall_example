@@ -8,6 +8,9 @@
 4. 运行mall_web，端口9001
 
 ## 提交记录
+commit 2020-09-06 19:18
+1. 添加了一些注释
+
 commit 2020-09-06 17:59
 1. 更改项目结构，改为mall_eureka_server，mall_product_cloud，mall_web三个模块
 2. mall_eureka_server为SpringCloud注册中心模块，服务在此注册发现，调用localhost:9020可查看服务注册情况

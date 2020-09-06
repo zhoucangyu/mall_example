@@ -1,15 +1,15 @@
 server:
-  port: 9011
+  port: 9011  #服务端口
 
 eureka:
   client:
     service-url:
       defaultZone:
-        http://localhost:9020/eureka/
+        http://localhost:9020/eureka/  #可能是注册中心的请求地址吧
 
 spring:
   application:
-    name: mall-product-cloud
+    name: mall-product-cloud  #服务名
   datasource:
     url: jdbc:mysql://localhost:3306/market?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF8&useSSL=false
     username: root
@@ -18,4 +18,4 @@ spring:
 
 mybatis:
   configuration:
-    map-underscore-to-camel-case: true
+    map-underscore-to-camel-case: true  #开启mybatis字段驼峰下划线转换

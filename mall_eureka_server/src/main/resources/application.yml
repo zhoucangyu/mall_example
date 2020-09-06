@@ -8,4 +8,4 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone:
-        http://${eureka.instance.hostname}:${server.port}/eureka/
+        http://${eureka.instance.hostname}:${server.port}/eureka/  #可能是注册中心的请求地址吧

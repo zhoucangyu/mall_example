@@ -11,6 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 电商产品的相关服务接口
+ * 微服务的restful api
+ */
 @RestController
 @RequestMapping("product")
 public class ProductController {
